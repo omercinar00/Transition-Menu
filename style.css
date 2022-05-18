@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    /* background-color: rgba(0, 0, 0, 0.785); */
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D22AQEg20RmkW3-oA/feedshare-shrink_800/0/1649887145853?e=2147483647&v=beta&t=VfzXKVV8rNkpMt--JdJuUZ8Y_vwoAJLsav-giR3MYIg);
+    background-size: 100vw 100vh;
+
+  }
+  
+  .sol-menu {
+    width: 20vw;
+    height: 35vh;
+    background-color: rgba(22, 22, 104, 0.7);
+    position: absolute;
+    top: 0;
+    left: -17vw;
+    transition: left 1s;
+  }
+  .sol-menu:hover {
+    left: 0;
+  }
+  
+  .sol-menu .title {
+    position: relative;
+    background-color: rgb(251, 251, 251);
+    padding: 0.3rem;
+  }
+  
+  .sol-menu .title i {
+    position: absolute;
+    right: 0.5rem;
+    transition: transform 1s;
+  }
+  
+  .sol-menu:hover i {
+    transform: rotate(180deg);
+  }
+  
+  .sol-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  
+  .sol-menu ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem;
+  }
